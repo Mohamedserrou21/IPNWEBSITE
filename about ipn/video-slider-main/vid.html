@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPN-imagerie-pub -communication</title>
+	<link rel="icon" type="image/png" href=  "../../logo-hd-white.png">
+    <link rel="stylesheet" href= "vid.css">
+	<link rel="stylesheet" href=  "../footer barre.css">
+	
+</head>
+<body>
+    <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href= "../index.html">
+           <img class="logo" src=  "../../img/logo-hd-white.png">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+		
+  </section>
+	
+    <div class="container">
+		
+        <video src= "production ID_3773483.mp4" class="slider" autoplay loop muted controls></video>
+
+        <ul>
+            <li onclick="videoslider('production ID_3773483.mp4')"><video src= "production ID_3773483.mp4"></video></li>
+            <li onclick="videoslider('Pexels Videos 1350205.mp4')"><video src=  "Pexels Videos 1350205.mp4"></video></li>
+            <li onclick="videoslider('Man Drawing on a Piece of Paper.mp4')"><video src=  "Man Drawing on a Piece of Paper.mp4"></video></li>
+            <li onclick="videoslider('production ID_3773483.mp4')"><video src=  "production ID_3773483.mp4"></video></li>
+            <li onclick="videoslider('Pexels Videos 1350205.mp4')"><video src=  "Pexels Videos 1350205.mp4"></video></li>
+			
+        </ul>
+    </div>
+
+
+    <script>
+
+        function videoslider(links){
+            document.querySelector(".slider").src = links;
+        }
+
+    </script>
+	
+<section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>IPN</span> IMAGERIE<span></span> <span>&</span> <span></span>Pub</h1>
+      </div>
+		
+      <h2>Your imagination is reel with us</h2>
+		
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/ipn.event"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+      </div>
+     
+		
+		
+    </div>
+  </section>
+</body>
+</html>
